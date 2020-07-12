@@ -16,4 +16,5 @@ For each new Android project you need to create and edit build.gradle
 ![](https://user-images.githubusercontent.com/22556115/87254708-4ea77a00-c439-11ea-9a52-22d972f971f2.png)
 
 - If you wish to edit build.gradle template, go to Settings in Intellij/Android Studio > Tools
+
 ![](https://user-images.githubusercontent.com/22556115/87254709-4f401080-c439-11ea-82a3-e7034527596e.png)
