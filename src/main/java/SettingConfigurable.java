@@ -20,7 +20,7 @@ public class SettingConfigurable implements Configurable {
 
     @Override
     public String getDisplayName() {
-        return "ASAP: Android system plugin";
+        return "ASAP: Android system app plugin";
     }
 
     @Override
