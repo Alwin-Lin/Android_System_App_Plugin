@@ -1,0 +1,39 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://oss.sonatype.org/content/repositories/snapshots/"
+        }
+        maven {
+            url 'https://dl.bintray.com/jetbrains/intellij-plugin-service'
+        }
+
+    }
+    dependencies {
+        classpath "org.jetbrains.intellij.plugins:gradle-intellij-plugin:0.5.0-SNAPSHOT"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.jetbrains.intellij'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+intellij {
+    version '2020.1.2'
+    pluginName 'android_sys_app_plugin'
+    plugins 'android'
+    updateSinceUntilBuild false
+    // alternativeIdePath "C:\\Users\\alwin\\android-studio-ide-201.6466190-windows\\android-studio"
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.13'
+}
+
+group 'android_sys_app_plugin'
+version '1.8'
