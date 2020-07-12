@@ -1,6 +1,7 @@
 # Android_System_App_Plugin
 ## Intorduction
 This plugin helps to create Android Studio project for Android system apps to leverage the IDE and tools millions developers use.
+- This is the first prototype.
 ## Problems
 Developing Android system apps can be painful because there are no specific IDE optimised for it.
 ## Install to Android Studio
