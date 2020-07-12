@@ -6,6 +6,8 @@ For each new Android project you need to create and edit build.gradle
 ## Install
 1. Download from release or clone and build the project.
    * The built can be found under \android_sys_app_plugin\build\libs
+   * Why build it yourself? 
+      * In build.gradle there is alternativeIdePath, it lets you choose which IDE to lauch it from
 2. Open Intellij/Android Studio > Help > Find action > "Install plugin from disk"
 3. Chose the plugin jar file
 ## Using plugin
