@@ -7,7 +7,7 @@ For each new Android project you need to create and edit build.gradle
 1. Download from [release](https://github.com/Alwin-Lin/Android_System_App_Plugin/releases/tag/1.0) or clone and build the project.
    * The built can be found under \android_sys_app_plugin\build\libs
    * Why build it yourself? 
-      * Iy you want to lauch the plugin with Android studio, edit [build.gradle](https://github.com/Alwin-Lin/Android_System_App_Plugin/blob/ae6c056a9ce599a36c8b1984ede57f5c63642a79/build.gradle#L31) to your IDE path
+      * If you want the plugin to lauch with Android studio instead of Intellij, edit alternativeIdePath in [build.gradle](https://github.com/Alwin-Lin/Android_System_App_Plugin/blob/master/build.gradle#L32) to your IDE path
 2. Open Intellij/Android Studio > Help > Find action > "Install plugin from disk"
 3. Chose the plugin jar file
 ## Using plugin
